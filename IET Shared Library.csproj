@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>IET_Shared_Library</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>IET_Shared_Library</AssemblyName>
+    <BaseOutputPath></BaseOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AvaloniaXaml Remove="Styles\ButtonStyles.axaml" />
+    <AvaloniaXaml Remove="Styles\DataCollectionStyles.axaml" />
+    <AvaloniaXaml Remove="Styles\Icons.axaml" />
+    <AvaloniaXaml Remove="Styles\TextStyles.axaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\Fonts\Montserrat\Montserrat-ExtraBold.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\Montserrat\Montserrat-ExtraBoldItalic.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\Montserrat\Montserrat-ExtraLight.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\Montserrat\Montserrat-ExtraLightItalic.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\Montserrat\Montserrat-Italic.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\Montserrat\Montserrat-Light.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\Montserrat\Montserrat-LightItalic.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\Montserrat\Montserrat-Medium.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\Montserrat\Montserrat-MediumItalic.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\Montserrat\Montserrat-Regular.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\Montserrat\Montserrat-SemiBold.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\Montserrat\Montserrat-SemiBoldItalic.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\Montserrat\Montserrat-Thin.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\Montserrat\Montserrat-ThinItalic.ttf" />
+    <AvaloniaResource Include="Assets\Icons\co-letters.ico" />
+    <AvaloniaResource Include="Assets\Icons\iet-letters.ico" />
+    <AvaloniaResource Include="Styles\ButtonStyles.axaml" />
+    <AvaloniaResource Include="Styles\DataCollectionStyles.axaml" />
+    <AvaloniaResource Include="Styles\Icons.axaml" />
+    <AvaloniaResource Include="Styles\TextStyles.axaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Fonts\Montserrat\Montserrat-ExtraBold.ttf" />
+    <Content Include="Assets\Fonts\Montserrat\Montserrat-ExtraBoldItalic.ttf" />
+    <Content Include="Assets\Fonts\Montserrat\Montserrat-ExtraLight.ttf" />
+    <Content Include="Assets\Fonts\Montserrat\Montserrat-ExtraLightItalic.ttf" />
+    <Content Include="Assets\Fonts\Montserrat\Montserrat-Italic.ttf" />
+    <Content Include="Assets\Fonts\Montserrat\Montserrat-Light.ttf" />
+    <Content Include="Assets\Fonts\Montserrat\Montserrat-LightItalic.ttf" />
+    <Content Include="Assets\Fonts\Montserrat\Montserrat-Medium.ttf" />
+    <Content Include="Assets\Fonts\Montserrat\Montserrat-MediumItalic.ttf" />
+    <Content Include="Assets\Fonts\Montserrat\Montserrat-Regular.ttf" />
+    <Content Include="Assets\Fonts\Montserrat\Montserrat-SemiBold.ttf" />
+    <Content Include="Assets\Fonts\Montserrat\Montserrat-SemiBoldItalic.ttf" />
+    <Content Include="Assets\Fonts\Montserrat\Montserrat-Thin.ttf" />
+    <Content Include="Assets\Fonts\Montserrat\Montserrat-ThinItalic.ttf" />
+    <Content Include="Assets\Icons\co-letters.ico" />
+    <Content Include="Assets\Icons\iet-letters.ico" />
+  </ItemGroup>
+
+</Project>

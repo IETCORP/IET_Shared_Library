@@ -1,0 +1,47 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Padding="20">
+			<StackPanel>
+				<!--DropDownButton-->
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="ComboBox" />
+					<ComboBox>
+						<ComboBox.ItemTemplate>
+							<StaticResource ResourceKey="ComboBoxItemTemplate"/>
+						</ComboBox.ItemTemplate>
+					</ComboBox>
+				</StackPanel>
+				<!--ComboBox.People-->
+				<StackPanel Orientation="Horizontal">
+					<TextBlock Text="ComboBox.People" />
+					<ComboBox Classes="People">
+						<ComboBox.ItemTemplate>
+							<StaticResource ResourceKey="ComboBoxItemTemplate"/>
+						</ComboBox.ItemTemplate>
+					</ComboBox>
+				</StackPanel>
+				
+			</StackPanel>
+		</Border>
+    </Design.PreviewWith>
+	
+	
+	
+	<Style>
+		<!--ComboBox-->
+		<Style Selector="ComboBox">
+			<Setter Property="FontFamily" Value="{DynamicResource Montserrat}" />
+		</Style>
+		<Style Selector="ComboBox PathIcon">
+			<Setter Property="Foreground" Value="#005da8" />
+		</Style>
+		
+		<!--ComboBox.People-->
+		<Style Selector="ComboBox.People">
+			<Style Selector="^ PathIcon">
+				<Setter Property="Foreground" Value="#ff5da8" />
+			</Style>
+		</Style>
+	</Style>
+</Styles>
