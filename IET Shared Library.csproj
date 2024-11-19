@@ -18,8 +18,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <AvaloniaXaml Remove="Styles\ButtonStyles.axaml" />
-    <AvaloniaXaml Remove="Styles\DataCollectionStyles.axaml" />
     <AvaloniaXaml Remove="Styles\Icons.axaml" />
     <AvaloniaXaml Remove="Styles\TextStyles.axaml" />
   </ItemGroup>
@@ -45,8 +43,6 @@
     <AvaloniaResource Include="Assets\Fonts\Montserrat\Montserrat-ThinItalic.ttf" />
     <AvaloniaResource Include="Assets\Icons\co-letters.ico" />
     <AvaloniaResource Include="Assets\Icons\iet-letters.ico" />
-    <AvaloniaResource Include="Styles\ButtonStyles.axaml" />
-    <AvaloniaResource Include="Styles\DataCollectionStyles.axaml" />
     <AvaloniaResource Include="Styles\Icons.axaml" />
     <AvaloniaResource Include="Styles\TextStyles.axaml" />
   </ItemGroup>

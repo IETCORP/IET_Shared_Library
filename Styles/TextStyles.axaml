@@ -17,6 +17,10 @@
 	<Style Selector="Button">
 		<Setter Property="FontFamily" Value="/Assets/Fonts/Montserrat#Montserrat" />
 	</Style>
+	<!--ComboBox-->
+	<Style Selector="ComboBox">
+		<Setter Property="FontFamily" Value="/Assets/Fonts/Montserrat#Montserrat" />
+	</Style>
 
 
 
