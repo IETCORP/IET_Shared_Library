@@ -7,6 +7,16 @@
     <Nullable>enable</Nullable>
     <AssemblyName>IET_Shared_Library</AssemblyName>
     <BaseOutputPath></BaseOutputPath>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>IET-Shared-Library</PackageId>
+    <Title>IET Shared Library</Title>
+    <Authors>Jake Nueslein</Authors>
+    <Company>IET Corp</Company>
+    <Description>Easy templates for fonts &amp; icons</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/PreconGroup/IET_Shared_Library</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/PreconGroup/IET_Shared_Library</RepositoryUrl>
+    <PackageLicenseExpression> CC0-1.0</PackageLicenseExpression>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -64,6 +74,13 @@
     <Content Include="Assets\Fonts\Montserrat\Montserrat-ThinItalic.ttf" />
     <Content Include="Assets\Icons\co-letters.ico" />
     <Content Include="Assets\Icons\iet-letters.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
