@@ -1,15 +1,5 @@
-﻿For internal use at IET Corp only.
-Readme is located at A:\!INNOVATION INITIATIVES\! IET SHARED LIBRARY\
-
-
-
-
-
 IET Shared Library
 
-Install
-1.	Install Avalonia (>=11.1.3) via the NuGet Package Manager
-2.	Add a Project Reference to “IET_Shared_Library.dll”
 
 Styles
 In App.axaml, add this line:
@@ -44,8 +34,6 @@ Icons
 Window Icon
 In any Avalonia .axaml file, within the Window tag, you can specify the Icon property like this:
 <Window Icon="avares://IET_Shared_Library/Assets/Icons/iet-letters.ico"
-SVG Icon
-todo
 
 Extras
 App Icon
