@@ -6,22 +6,23 @@ In App.axaml, add this line:
 	<StyleInclude Source="avares://IET_Shared_Library/Styles/TextStyles.axaml"/>
 </Application.Styles>
 ```
-Supported Tags should then automatically adjust Size & Font. You can use Classes="Headline1" inside a supported Tag to define the style.
-• Tags supported:
-	o Button
-	o TextBlock
-	o Textbox
-• Classes supported:
-	o Headline1 through 6
-	o Subtitle1
-	o Subtitle2
-	o Body1
-	o Body2
-	o Caption
-	o Overline
-	o ButtonText
-	o FloatingButtonText
+Supported Tags should then automatically adjust Size & Font. You can use `Classes="Headline1"` inside a supported Tag to define the style.
 
+**Tags supported**
+- Button  
+- TextBlock
+- TextBox
+
+**Classes supported**  
+- Headline1 through 6  
+- Subtitle1  
+- Subtitle2  
+- Body1  
+- Body2  
+- Caption  
+- Overline  
+- ButtonText  
+- FloatingButtonText  
 ## Fonts
 You shouldn’t need to reference Font files on their own, since the Text Styles use them. But if you want to use the fonts without the styles, you can do so by adding this line to App.axaml:
 ```xml
