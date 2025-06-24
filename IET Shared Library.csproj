@@ -8,7 +8,7 @@
     <AssemblyName>IET_Shared_Library</AssemblyName>
     <BaseOutputPath></BaseOutputPath>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageId>IET-Shared-Library</PackageId>
+    <PackageId>IET_Shared_Library</PackageId>
     <Title>IET Shared Library</Title>
     <Authors>Jake Nueslein</Authors>
     <Company>IET Corp</Company>
