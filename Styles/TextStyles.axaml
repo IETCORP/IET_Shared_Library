@@ -2,7 +2,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 	
 	
-	
 	<!--TextBlock-->
 	<Style Selector="TextBlock">
 		<Setter Property="FontFamily" Value="/Assets/Fonts/Montserrat#Montserrat" />
@@ -21,34 +20,43 @@
 	<Style Selector="ComboBox">
 		<Setter Property="FontFamily" Value="/Assets/Fonts/Montserrat#Montserrat" />
 	</Style>
-
+	<!--NumericUpDown-->
+	<Style Selector="NumericUpDown">
+		<Setter Property="FontFamily" Value="/Assets/Fonts/Montserrat#Montserrat" />
+	</Style>
 
 
 
 	<!--TextBlock.Headline1-->
 	<Style Selector="TextBlock.Headline1">
+		<Setter Property="FontFamily" Value="/Assets/Fonts/Montserrat-Alt1#Montserrat-Alt1" />
 		<Setter Property="FontWeight" Value="Light" />
 		<Setter Property="FontSize" Value="96" />
 	</Style>
 	<!--TextBlock.Headline2-->
 	<Style Selector="TextBlock.Headline2">
+		<Setter Property="FontFamily" Value="/Assets/Fonts/Montserrat-Alt1#Montserrat-Alt1" />
 		<Setter Property="FontWeight" Value="Light" />
 		<Setter Property="FontSize" Value="60" />
 	</Style>
 	<!--TextBlock.Headline3-->
 	<Style Selector="TextBlock.Headline3">
+		<Setter Property="FontFamily" Value="/Assets/Fonts/Montserrat-Alt1#Montserrat-Alt1" />
 		<Setter Property="FontSize" Value="48" />
 	</Style>
 	<!--TextBlock.Headline4-->
 	<Style Selector="TextBlock.Headline4">
+		<Setter Property="FontFamily" Value="/Assets/Fonts/Montserrat-Alt1#Montserrat-Alt1" />
 		<Setter Property="FontSize" Value="34" />
 	</Style>
 	<!--TextBlock.Headline5-->
 	<Style Selector="TextBlock.Headline5">
+		<Setter Property="FontFamily" Value="/Assets/Fonts/Montserrat-Alt1#Montserrat-Alt1" />
 		<Setter Property="FontSize" Value="24" />
 	</Style>
 	<!--TextBlock.Headline6-->
 	<Style Selector="TextBlock.Headline6">
+		<Setter Property="FontFamily" Value="/Assets/Fonts/Montserrat-Alt1#Montserrat-Alt1" />
 		<Setter Property="FontWeight" Value="Medium" />
 		<Setter Property="FontSize" Value="20" />
 	</Style>
@@ -84,14 +92,21 @@
 
 	<!--TextBlock.ButtonText-->
 	<Style Selector="TextBlock.ButtonText">
+		<Setter Property="FontFamily" Value="/Assets/Fonts/Montserrat-Alt1#Montserrat-Alt1" />
 		<Setter Property="FontWeight" Value="Medium" />
 		<Setter Property="FontSize" Value="14" />
 	</Style>
 
 	<!--TextBlock.FloatingButtonText-->
 	<Style Selector="TextBlock.FloatingButtonText">
+		<Setter Property="FontFamily" Value="/Assets/Fonts/Montserrat-Alt1#Montserrat-Alt1" />
 		<Setter Property="FontWeight" Value="Medium" />
 		<Setter Property="FontSize" Value="15" />
+	</Style>
+	
+	<!--NumericUpDown.Headline1-->
+	<Style Selector="NumericUpDown.Value">
+		<Setter Property="FontSize" Value="16" />
 	</Style>
 
 </Styles>

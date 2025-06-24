@@ -1,14 +1,6 @@
 <Styles xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    
-	<Design.PreviewWith>
-        <Border Padding="20">
-			<StackPanel>
-				<PathIcon Data="{DynamicResource iet_symbol}" />
-			</StackPanel>
-        </Border>
-    </Design.PreviewWith>
-
+	
     <Style>
 		<Style.Resources>
 			<StreamGeometry x:Key="iet_symbol">
