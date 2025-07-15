@@ -1,0 +1,19 @@
+name: Build and Publish to GitHub Packages
+
+on:
+  push:
+    tags:
+      - 'v*'
+      
+permissions:
+  packages: write
+  contents: read
+  
+jobs:
+  publish:
+    uses: IETCORP/Actions/.github/workflows/build-and-publish.yml@main
+    with:
+      project_name: IETCorp.IET_Shared_Library
+      package_name: IET_Corp.IET_Shared_Library
+    secrets:
+      GH_PACKAGES_TOKEN: ${{ secrets.GITHUB_TOKEN }}
